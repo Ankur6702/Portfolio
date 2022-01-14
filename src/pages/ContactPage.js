@@ -41,9 +41,6 @@ const ContactPageStyled = styled.section`
         grid-column-gap: 2rem;
         @media screen and (max-width: 978px){
             grid-template-columns: repeat(1, 1fr);
-            .f-button{
-                margin-bottom: 3rem;
-            }
         }
     }
 `;

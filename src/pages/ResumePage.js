@@ -12,13 +12,10 @@ function Resume() {
       <ResumeStyled>
         <Title title={'Resume'} span={'resume'} />
         <InnerLayout>
-          <div className='btn btn-top'>
+          <div className='btn'>
             <PrimaryButton title='Download CV' link={resumeLink} />
           </div>
           <ResumePdf />
-          <div className='btn btn-bottom'>
-            <PrimaryButton title='Download CV' link={resumeLink} />
-          </div>
         </InnerLayout>
       </ResumeStyled>
     </MainLayout>
@@ -30,14 +27,7 @@ const ResumeStyled = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-  }
-
-  .btn-top {
-    margin-bottom: 2rem;
-  }
-
-  .btn-bottom {
-    margin-top: 2rem;
+      margin-bottom: 2rem;
   }
 `;
 

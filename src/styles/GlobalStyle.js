@@ -127,10 +127,10 @@ const GlobalStyled = createGlobalStyle`
 
   .ham-burger-menu {
       position: fixed;
-      right: 3%;
-      top: 3%; 
+      left: 2%;
+      top: 2%; 
       display: none;
-      z-index: 15;
+      z-index: 30;
       svg{
           font-size: 2rem;
           color: var(--white-color);

@@ -23,7 +23,7 @@ function ProjectsPage() {
     }
     return (
         <MainLayout>
-            <Title title={'Some of my projects'} span={'Projects'} />
+            <Title title={'Projects'} span={'Projects'} />
             <InnerLayout>
                 <Button filter={filter} button={button} />
                 <Menu menuItem={menuItem} />
