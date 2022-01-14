@@ -36,6 +36,9 @@ function ServicesSection() {
 }
 
 const ServicesSectionStyled = styled.section`
+    @media screen and (max-width: 600px) {
+        margin-top: -2rem;
+    }
     .services{
         margin-top: 5rem;
         display: grid;
