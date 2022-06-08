@@ -5,8 +5,17 @@ import orance from '../images/Project Images/orance.png';
 import collegeWebsite from '../images/Project Images/CollegeWebsite.png';
 import rps from '../images/Project Images/rps.png';
 import covid from '../images/Project Images/covid.png';
+import letschat from '../images/Project Images/letschat.png';
 
 const projects = [
+    {
+        id: 8,
+        category: 'ReactJS',
+        image: letschat,
+        link1: 'https://github.com/Ankur6702/Lets-Chat',
+        title: 'Lets Chat',
+        text: 'Topics: ReactJS, NodeJS, Socket IO'
+    },
     {
         id: 1,
         category: 'Javascript',

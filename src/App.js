@@ -49,7 +49,7 @@ function App() {
         </IconButton>
       </div>
 
-      <MainContentStyled>
+      <MainContentStyled onClick={() => setNavToggle(false)}>
         <Routes>
           <Route path="/" element={<HomePage />} exact />
           <Route path="/about" element={<AboutPage />} exact />
