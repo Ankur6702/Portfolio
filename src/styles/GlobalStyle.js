@@ -149,6 +149,7 @@ const GlobalStyled = createGlobalStyle`
     @media screen and (max-width:1200px){
     .ham-burger-menu{
         display: block;
+        background-color: var(--background-dark-color);
     }
   }
 

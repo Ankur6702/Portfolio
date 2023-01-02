@@ -2,6 +2,7 @@ import styled from "styled-components";
 import { Document, Page, pdfjs } from 'react-pdf';
 import pdf from './../Assets/Ankur Agarwal.pdf';
 import { useState, useEffect } from "react";
+import React from "react";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function ResumePdf() {
@@ -36,6 +37,7 @@ const ResumePdfStyled = styled.section`
         @media screen and (max-width: 1400px) {
         width: 100% !important;
         height: 100% !important;
+        }
     }
 `;
 

@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Navigation from './navigation';
+import React from "react";
 
 function Sidebar({ navToggle }) {
     return (

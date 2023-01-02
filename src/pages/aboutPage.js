@@ -76,7 +76,7 @@ const AboutPageStyled = styled.header`
             overflow: auto;
         }
         p::-webkit-scrollbar{
-            width: 9px;
+            width: 5px;
             background-color: #383838;
         }
         p::-webkit-scrollbar-thumb{
@@ -87,7 +87,7 @@ const AboutPageStyled = styled.header`
             border-radius: 10px;
             background-color: #383838;
         }
-}
+    }
 `;
 
 export default AboutPage;

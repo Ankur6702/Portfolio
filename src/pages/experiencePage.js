@@ -53,9 +53,6 @@ function ExperiencePage() {
 }
 
 const ExperienceContentStyled = styled.section`
-    @media screen and (max-width: 600px) {
-        margin-top: -2rem;
-    }
     .experiences{
         margin-top: 5rem;
         display: grid;
