@@ -23,7 +23,7 @@ function AboutPage() {
                         </a>
                     </div>
                 <br />
-                <p style={{ textAlign: "justify" }}>
+                <p style={{ textAlign: "center" }}>
                     {/* Programming fascinates me and this is what I do most of the time. I enjoy learning new things 
                     and try to improve myself daily. Currently, I'm indulged in competitive programming and web development. */}
                     As a MERN stack developer and Google DSC Lead at IIIT Kota, I am highly skilled in both technical

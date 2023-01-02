@@ -1,11 +1,14 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ExperienceCard({ image, title, paragraph }) {
+function ExperienceCard({ image, title, paragraph, period }) {
     return (
         <ExperienceCardStyled>
             <div className="container">
                 <img src={image} alt="" />
+                <span className='period'>
+                    {period}
+                </span>
                 <h4>{title}</h4>
                 <p>{paragraph}</p>
             </div>
@@ -59,6 +62,19 @@ const ExperienceCardStyled = styled.div`
         p::-webkit-scrollbar-track{
             border-radius: 10px;
             background-color: #383838;
+        }
+        .period {
+            font-size: 1rem;
+            padding-bottom: .6rem;
+            color: var(--primary-color);
+            position: relative;
+            left: 1rem;
+            bottom: 1.5rem;
+        }
+        @media screen and (max-width:380px) {
+            .period {
+                font-size: 0.8rem;
+            }
         }
     }
 `;
