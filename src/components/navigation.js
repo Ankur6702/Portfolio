@@ -1,3 +1,4 @@
+import React from "react";
 import { NavLink } from "react-router-dom";
 import avatar from "../images/Ankur Agarwal.png";
 import styled from "styled-components";
@@ -10,24 +11,34 @@ function Navigation() {
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
-                    <NavLink to="/" activeclassname="active">Home</NavLink>
+                    <NavLink to="/"
+                        // @ts-ignore
+                        activeclassname="active">About</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/about" activeclassname="active">About</NavLink>
+                    <NavLink to="/experience"
+                        // @ts-ignore
+                        activeclassname="active">Experience</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/resume" activeclassname="active">Resume</NavLink>
+                    <NavLink to="/projects"
+                        // @ts-ignore
+                        activeclassname="active">Projects</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/projects" activeclassname="active">Projects</NavLink>
+                    <NavLink to="/resume"
+                        // @ts-ignore
+                        activeclassname="active">Resume</NavLink>
                 </li>
                 <li className="nav-item">
-                    <NavLink to="/contact" activeclassname="active">Contact</NavLink>
+                    <NavLink to="/contact"
+                        // @ts-ignore
+                        activeclassname="active">Contact</NavLink>
                 </li>
             </ul>
 
             <footer className="footer">
-                <p>@2022 Ankur Agarwal</p>
+                <p>@2023 Ankur Agarwal</p>
             </footer>
         </NavigationStyled>
     );

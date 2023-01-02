@@ -1,23 +1,24 @@
+import React from "react";
 import styled from "styled-components";
-import { MainLayout } from './../styles/Layout';
-import Title from './../components/Title';
+import { MainLayout } from '../styles/Layout';
+import Title from '../components/Title';
 import ImageSection from "../components/ImageSection";
 import ServicesSection from "../components/ServicesSection";
 
-function AboutPage() {
+function ExperiencePage() {
   return (
     <MainLayout>
-      <AboutContentStyled>
+      <ExperienceContentStyled>
         <Title title={'About Me'} span={"About Me"} />
         <ImageSection />
         <ServicesSection />
-      </AboutContentStyled>
+      </ExperienceContentStyled>
     </MainLayout>
   );
 }
 
-const AboutContentStyled = styled.section`
+const ExperienceContentStyled = styled.section`
 
 `;
 
-export default AboutPage;
+export default ExperiencePage;

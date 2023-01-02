@@ -1,19 +1,19 @@
 import React from 'react'
 import styled from 'styled-components';
 
-function ServiceCard({ image, title, paragraph }) {
+function ExperienceCard({ image, title, paragraph }) {
     return (
-        <ServiceCardStyled>
+        <ExperienceCardStyled>
             <div className="container">
                 <img src={image} alt="" />
                 <h4>{title}</h4>
                 <p>{paragraph}</p>
             </div>
-        </ServiceCardStyled>
+        </ExperienceCardStyled>
     )
 }
 
-const ServiceCardStyled = styled.div`
+const ExperienceCardStyled = styled.div`
     background-color: var(--background-dark-grey);
     border-left: 1px solid var(--border-color);
     border-top: 8px solid var(--border-color);
@@ -28,7 +28,7 @@ const ServiceCardStyled = styled.div`
         padding: 1.2rem;
         h4{
             color: var(--white-color);
-            font-size: 1.6rem;
+            font-size: 1.5rem;
             padding: 1rem 0;
             position: relative;
             &::after{
@@ -44,8 +44,23 @@ const ServiceCardStyled = styled.div`
         }
         p{
             padding: .8rem 0;
+            font-size: 1.1rem;
+            height: 10rem;
+            overflow: auto;
+        }
+        p::-webkit-scrollbar{
+            width: 9px;
+            background-color: #383838;
+        }
+        p::-webkit-scrollbar-thumb{
+            border-radius: 10px;
+            background-color: #6b6b6b;
+        }
+        p::-webkit-scrollbar-track{
+            border-radius: 10px;
+            background-color: #383838;
         }
     }
 `;
 
-export default ServiceCard;
+export default ExperienceCard;

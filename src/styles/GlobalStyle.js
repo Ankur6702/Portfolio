@@ -106,6 +106,15 @@ const GlobalStyled = createGlobalStyle`
         color: var(--primary-color);
     }
 
+    @media screen and (max-width: 500px) {
+        h1 {
+            font-size: 3rem;
+            span {
+                font-size: 3rem;
+            }
+        }
+    }
+
     .light-dark-mode {
       position: fixed;
       right: 0;

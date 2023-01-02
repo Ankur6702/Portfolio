@@ -1,10 +1,13 @@
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import styled from "styled-components";
 import Sidebar from "./components/sidebar";
-import HomePage from "./pages/homepage";
-import AboutPage from './pages/AboutPage';
-import ResumePage from './pages/ResumePage';
+// @ts-ignore
+import AboutPage from "./pages/aboutPage";
+// @ts-ignore
+import ExperiencePage from './pages/experiencePage';
 import ProjectsPage from './pages/ProjectsPage';
+import ResumePage from './pages/ResumePage';
 import ContactPage from './pages/ContactPage';
 import Brightness4Icon from '@mui/icons-material/Brightness4';
 import { IconButton, Switch } from '@mui/material';
@@ -51,11 +54,21 @@ function App() {
 
       <MainContentStyled onClick={() => setNavToggle(false)}>
         <Routes>
-          <Route path="/" element={<HomePage />} exact />
-          <Route path="/about" element={<AboutPage />} exact />
-          <Route path="/resume" element={<ResumePage />} exact />
-          <Route path="/projects" element={<ProjectsPage />} exact />
-          <Route path="/contact" element={<ContactPage />} exact />
+          <Route path="/" element={<AboutPage />}
+            // @ts-ignore
+            exact />
+          <Route path="/experience" element={<ExperiencePage />}
+            // @ts-ignore
+            exact />
+          <Route path="/projects" element={<ProjectsPage />}
+            // @ts-ignore
+            exact />
+          <Route path="/resume" element={<ResumePage />}
+            // @ts-ignore
+            exact />
+          <Route path="/contact" element={<ContactPage />}
+            // @ts-ignore
+            exact />
         </Routes>
       </MainContentStyled>
     </div>
