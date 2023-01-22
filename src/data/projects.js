@@ -6,8 +6,17 @@ import collegeWebsite from '../images/Project Images/CollegeWebsite.png';
 import rps from '../images/Project Images/rps.png';
 import covid from '../images/Project Images/covid.png';
 import letschat from '../images/Project Images/letschat.png';
+import sms from '../images/Project Images/sms.png';
 
 const projects = [
+    {
+        id: 9,
+        category: 'NodeJS',
+        image: sms,
+        link1: 'https://github.com/Ankur6702/School-Management',
+        title: 'School Management System',
+        text: 'Topics: NodeJS, ExpressJS, MongoDB, Mongoose'
+    },
     {
         id: 8,
         category: 'ReactJS',
