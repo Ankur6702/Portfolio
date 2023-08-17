@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import avatar from "../images/Ankur Agarwal.png";
+import avatar from "../images/Ankur Agarwal.jpg";
 import styled from "styled-components";
 
 function Navigation() {
