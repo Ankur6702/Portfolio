@@ -7,8 +7,17 @@ import rps from '../images/Project Images/rps.png';
 import covid from '../images/Project Images/covid.png';
 import letschat from '../images/Project Images/letschat.png';
 import sms from '../images/Project Images/sms.png';
+import quinnn from '../images/Project Images/quinnn.png';
 
 const projects = [
+    {
+        id: 10,
+        category: 'NodeJS',
+        image: quinnn,
+        link1: 'https://github.com/Ankur6702/Quinnn',
+        title: 'Quinnn - Social Media Application',
+        text: 'Topics: NodeJS, ExpressJS, MongoDB, Azure, Swagger'
+    },
     {
         id: 9,
         category: 'NodeJS',
